@@ -23,10 +23,10 @@
     'depends': ['base'],
 
     # always loaded
-    'data': [
+     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'templates.xml',
+        'views/openacademy.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
